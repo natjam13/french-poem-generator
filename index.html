@@ -3,29 +3,59 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playwrite+VN:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="src/index.css" />
     <title>AI Poem Generator</title>
   </head>
   <body>
-    <h1>Welcome to the AI poem Generator</h1>
-    <footer>
-      This AI project was code by
-      <a href="https://github.com/natjam13/" target="_blank"> Nat Murray </a>
-      Open sourced on
-      <a
-        href="https://github.com/natjam13/french-poem-generator"
-        target="_blank"
-      >
-        GitHub
-      </a>
-      Hosted by
-      <a
-        href="https://ai-french-poem-generator-shecodes.netlify.app/"
-        target="_blank"
-      >
-        Netlify
-      </a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1> AI Poem Generator</h1>
+      </header>
+
+      <main>
+        <Div class="form-container">
+          <input
+            type="text"
+            placeholder="Enter topic of poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          your poem
+          <br />
+          your poem
+        </div>
+      </Div>
+    </main>
+      <footer>
+        This AI project was code by
+        <a href="https://github.com/natjam13/" target="_blank"> Nat Murray </a>
+        Open sourced on
+        <a
+          href="https://github.com/natjam13/french-poem-generator"
+          target="_blank"
+        >
+          GitHub
+        </a>
+        Hosted by
+        <a
+          href="https://ai-french-poem-generator-shecodes.netlify.app/"
+          target="_blank"
+        >
+          Netlify
+        </a>
+      </footer>
+    </div>
   </body>
   <script src="src/index.js"></script>
 </html>
