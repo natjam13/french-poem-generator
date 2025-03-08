@@ -9,7 +9,7 @@ a {
 }
 
 .container {
-    margin: 120px auto;
+    margin: 100px auto;
     max-width: 600px;
 }
 
@@ -69,6 +69,15 @@ h1 {
     line-height: 20px;
     padding:20px;
 }
+
+.hidden {
+    display: none;
+}
+
+.poem strong {
+    color: 2px solid rgb(169, 216, 200);
+}    
+
 
 footer {
     font-size: 13px;
