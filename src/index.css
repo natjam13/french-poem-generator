@@ -33,13 +33,17 @@ h1 {
     padding: 30px;
 
 }
-
 .form {
-    background-color: white;
-    border-radius: 10px;
     display: flex;
-    padding: 30px;
 }
+
+.hint {
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 5px;
+    opacity: 0.6;
+   
+}    
 
 .instructions {
     border: 1px solid rgba(39,33,66,0.5);
@@ -75,7 +79,7 @@ h1 {
 }
 
 .poem strong {
-    color: 2px solid rgb(169, 216, 200);
+    color: rgb(169, 216, 200);
 }    
 
 
@@ -83,4 +87,20 @@ footer {
     font-size: 13px;
     margin-top: 30px;
     text-align: center;
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
 }
